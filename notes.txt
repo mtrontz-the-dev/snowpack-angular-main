@@ -1,0 +1,37 @@
+<-- Specific Function Notes -->
+Dark Mode CSS 
+Bulma
+FAQ Custom JS 
+https://www.w3.org/TR/wai-aria-practices/examples/disclosure/disclosure-faq.html
+
+index.html sitemap
+
+<-- section id's  -->
+Footer id="footer"
+Contact Form id="contact"
+FAQs id="faqs"
+Why Hire Klen id="why-hire-us"
+Our Services id="services"
+Hero Banner id="header-hero"
+Navbar id="navbar"
+
+
+
+<-- REVIEW LATER -->
+Header Hero Placement
+id="header-hero-placement"
+- Should the following snippet be placed before the navbar, or after?
+  The difference is in the placement of the rendered illustrations. Placed before the navbar, the images apear aligned wit the Banner words "The best eco-solution...."
+  whereas when the div images are placed after the navbar, they apear aligned with the eco-badges below the text and sign-up form.
+   <div>
+        <section class="is-relative" style="overflow: hidden;">
+          <div class="is-hidden-mobile column is-3" style="position: absolute; top: 0; left: 0; margin-top: 250px; margin-left: -40px;"><img style="max-height: 350px;" src="metis-assets/illustrations/walk-dog.png" alt=""/></div>
+          <div class="is-hidden-mobile column is-3" style="position: absolute; top: 0; right: 0; margin-top: 220px; margin-right: -130px;"><img style="max-height: 350px;" src="metis-assets/illustrations/phone-online-shopping.png" alt=""/>
+          </div>
+
+My preference is to place the images after the navbar, so that they are renderd aligned with the eco-badges.
+
+<-- END REVIEW id="header-hero-placement" -->
+
+
+

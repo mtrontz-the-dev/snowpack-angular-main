@@ -1,16 +1,33 @@
-# Deprecated
+# Bulma Builder
 
-This repository is deprecated as it doesn't give enough value over using native Angular tools.
+NOTE: npm commands overwrite the ./public directory.
 
-# Snowpack ❤ Angular
+## 1. Getting Started
 
-## This is a monorepo for all things Snowpack & Angular
+Project's source files are placed in ./src/ directory. 
 
--   [Template](templates/base)
--   [Plugin](packages/plugin)
+* ./src/assets - default static files (eg. image placeholders). You should replace them with your own files.
 
-### Start a new project
+* ./src/scss/ - Sass sources used to build Bulma theme. Variables used in Theme Customizer are located in custom-variables.scss file.
 
-```bash
-npx create-snowpack-app new-dir --template @snowpack-angular/template
+* ./src/*.pug - All your pages (templates) are stored in separated .pug files.
+
+## 2. Installation
+
 ```
+# Install dependencies
+npm install 
+
+# Run dev server with live preview (Browsersync)
+npm run watch
+
+# Or make production build
+npm run build
+```
+
+## 3. Contact
+
+If you have found any bugs in the Bulma Builder, have any questions, 
+comments or ideas for new features feel free to contact us:
+
+support@shuffle.dev

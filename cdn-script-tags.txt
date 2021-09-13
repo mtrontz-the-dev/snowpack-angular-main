@@ -1,0 +1,23 @@
+<-- font-awesome icons, SVG, font, and CSS toolkit -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<-- Userbase.js Authentication & User Management (Script + Polyfill for IE & Older Browsers -->
+<script type="text/javascript" src="https://sdk.userbase.com/2/userbase.js"></script>
+via
+https://userbase.com/docs/installation/
+<script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js"></script>
+via
+https://github.com/taylorhakes/promise-polyfill
+
+Compatibility (Userbase.js CDN Script)
+We have tested support for the following browsers:
+
+Chrome >= 78
+Safari >= 11
+Firefox >= 71
+Chrome Android >= 80
+Safari iOS >= 13
+To support Internet Explorer, you will need to use a Promise polyfill such as this one.(https://github.com/taylorhakes/promise-polyfill)
+
+
+

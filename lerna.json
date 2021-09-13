@@ -1,4 +1,0 @@
-{
-	"packages": ["packages/*", "templates/*"],
-	"version": "3.0.0"
-}

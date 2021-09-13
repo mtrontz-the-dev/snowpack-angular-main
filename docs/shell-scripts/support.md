@@ -22,3 +22,7 @@ Similarly, you can use shorter forms if you want to quickly check if a file does
 
 [ ! -f <file> ] && echo "This file does not exist!"
 ```
+# how to exit bash editor after git commit
+After writing commit message, just press Esc Button and then write :wq or :wq! and then Enter to close the unix file.
+
+[Source-Stack Overflow](https://stackoverflow.com/questions/13239368/git-how-to-close-commit-editor/28343418#:~:text=After%20writing%20commit%20message%2C%20just,to%20close%20the%20unix%20file.)
